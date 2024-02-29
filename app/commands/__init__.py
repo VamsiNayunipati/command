@@ -25,3 +25,5 @@ class CommandHandler:
         except KeyError:
             print(f"No such command: {command_name}")
 
+    def listMenu(self):
+        return self.commands.keys()
